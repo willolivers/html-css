@@ -8,15 +8,27 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand backgroud
+             color > image >  position > repeat > [size] > attachment
+
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+
+            /*
+            o SIZE tem problemas quando usado no Shorhand
+            */
         }
 
         main{
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border-radius: 15px;
@@ -31,7 +43,7 @@
         <h1>
             Teste de imagem de fundo
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae sapiente adipisci optio, ipsum recusandae quas? Quo corrupti ea dolorum! Omnis velit perferendis rem veniam ipsum repellendus alias, magnam dolor.lore Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio veritatis nobis architecto totam eius, alias velit accusamus fuga! Iusto atque corrupti non obcaecati fuga fugit ratione eius perspiciatis blanditiis ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque sed omnis ea, excepturi, aspernatur totam quod maiores eveniet qui dolore sapiente. Ratione corrupti nulla distinctio iure incidunt doloremque repellat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti beatae sapiente adipisci optio, ipsum recusandae quas? Quo corrupti ea dolorum! Omnis velit perferendis rem veniam ipsum repellendus alias, magnam dolor.lore Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio veritatis nobis architecto totam eius, alias velit accusamus fuga! Iusto atque corrupti non obcaecati fuga fugit ratione eius perspiciatis blanditiis ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cumque sed omnis ea, excepturi, aspernatur totam quod maiores eveniet qui dolore sapiente. Ratione corrupti nulla distinctio iure incidunt doloremque repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita at odio, animi perferendis, quod nulla, ab illum minus quo qui aliquid praesentium sint accusamus unde excepturi nam! Dolore, omnis suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eveniet quaerat nostrum possimus ipsam? Cumque, cum eius mollitia aperiam possimus vitae natus deserunt modi perspiciatis repudiandae, nulla incidunt vel magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta corporis nesciunt neque dicta recusandae velit accusamus voluptatum adipisci sit eligendi, explicabo repellat ad aperiam commodi ab nisi, dignissimos repudiandae. Inventore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae necessitatibus quasi, incidunt fuga dicta natus esse inventore quibusdam exercitationem dolore magnam in est voluptas quod dolorem dignissimos. Fugit, maxime fuga! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus eligendi fugit deleniti fuga repellat architecto ea vitae nesciunt quo accusantium molestiae quae totam nemo facilis velit minima, natus laboriosam explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt obcaecati temporibus id sunt, ducimus ratione fugiat, suscipit natus quae accusantium rem voluptatibus exercitationem nesciunt magnam vitae quam eos veniam rerum.</p>
     </main>
 </body>
 </html>
